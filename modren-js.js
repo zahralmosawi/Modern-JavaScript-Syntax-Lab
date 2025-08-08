@@ -51,10 +51,10 @@ const userProfile = {
 console.log(userProfile)
 
 // Exercise 8
-function fname(noun, adjective){
-    return 'The ' + noun + ' is ' + adjective
+function fname(noun ='cat', adjective = 'orange'){
+    console.log('The ' + noun + ' is ' + adjective)
 }
-console.log(fname('cat', 'orange'))
+fname()
 
 // Exercise 9
 const pizza = 'tasty'
